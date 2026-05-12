@@ -1,0 +1,138 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup",
+        "id": "v+xvEtFMZY.Cki(2etWD",
+        "x": 60,
+        "y": 140,
+        "inputs": {
+          "testInput": {
+            "block": {
+              "type": "background",
+              "id": ")1T.4?n)o|-C{o#4HQ-X",
+              "fields": {
+                "backgroundColorR": 255,
+                "backgroundColorG": 0,
+                "backgroundColorB": 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "procedures_defnoreturn",
+        "id": "cIzPM7V,BJ]Z~}mL[TTx",
+        "x": 60,
+        "y": 620,
+        "icons": {
+          "comment": {
+            "text": "Beschreibe diese Funktion …",
+            "pinned": false,
+            "height": 80,
+            "width": 160
+          }
+        },
+        "fields": {
+          "NAME": "stempeln"
+        },
+        "inputs": {
+          "STACK": {
+            "block": {
+              "type": "color",
+              "id": "vZlpK|R-2SAD/=t*g2D|",
+              "fields": {
+                "colorR": 0,
+                "colorG": 0,
+                "colorB": 255
+              },
+              "next": {
+                "block": {
+                  "type": "circle",
+                  "id": "uQOX3Hsi!.{;CwgBOS%Z",
+                  "inputs": {
+                    "xValue": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "4Jr16W1v-y2pmF^+nBh6",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseX",
+                        "id": "!davYJgRUUM_twd5ll3o"
+                      }
+                    },
+                    "yValue": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "E5h{F43Bl2UUTGIn|?[T",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseY",
+                        "id": ";^w]aEYz2W4{hPN4;CxD"
+                      }
+                    },
+                    "dValue": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "_n$+/)G:Fi+C4:nmBv`[",
+                        "fields": {
+                          "numbr": 20
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "repeatForever",
+        "id": "vWTr?YhM9|CdiOi}fU2,",
+        "x": 260,
+        "y": 340
+      },
+      {
+        "type": "mouseClick",
+        "id": "Z]*%Y7{a1DM5[tCFmx-g",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "mouseClick",
+        "id": "]44cBv=%wGl!Di.?DG|j",
+        "x": 500,
+        "y": 180,
+        "inputs": {
+          "mausStatements": {
+            "block": {
+              "type": "procedures_callnoreturn",
+              "id": "8/%Yi=8Y9i1W?FAbw6G%",
+              "extraState": {
+                "name": "stempeln"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "x",
+      "id": "aZonrZm4UoE/(Ix8u4G_"
+    },
+    {
+      "name": "nameFunktion",
+      "id": "oBdoScp2})4?~y%l|E8f"
+    }
+  ]
+}

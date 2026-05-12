@@ -1,0 +1,303 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup",
+        "id": "v+xvEtFMZY.Cki(2etWD",
+        "x": 60,
+        "y": 140,
+        "inputs": {
+          "testInput": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "678}5,*B}AiDQ+8h[z|x",
+              "fields": {
+                "backgroundPickHSV": "#12b800"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "procedures_defnoreturn",
+        "id": "cIzPM7V,BJ]Z~}mL[TTx",
+        "x": 151,
+        "y": 510,
+        "icons": {
+          "comment": {
+            "text": "Beschreibe diese Funktion …",
+            "pinned": false,
+            "height": 80,
+            "width": 160
+          }
+        },
+        "fields": {
+          "NAME": "stempeln"
+        },
+        "inputs": {
+          "STACK": {
+            "block": {
+              "type": "colorHSV",
+              "id": "ja2.)cv~zu2ZIi-pgEew",
+              "fields": {
+                "COLOUR": "#f4ff8f"
+              },
+              "next": {
+                "block": {
+                  "type": "circle",
+                  "id": "sK(x.4_]IYMN3GWRuEU;",
+                  "inputs": {
+                    "xValue": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "/WxDOFM=bZJ$3@4o4gi=",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseX",
+                        "id": "!davYJgRUUM_twd5ll3o"
+                      }
+                    },
+                    "yValue": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "Ih6L1%Ck+?I2qo,AV?HN",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseY",
+                        "id": ";^w]aEYz2W4{hPN4;CxD"
+                      }
+                    },
+                    "dValue": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "ZSdw~KW6B2CQG).~!g+L",
+                        "fields": {
+                          "numbr": 40
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "color",
+                      "id": "vZlpK|R-2SAD/=t*g2D|",
+                      "fields": {
+                        "colorR": 0,
+                        "colorG": 0,
+                        "colorB": 255
+                      },
+                      "next": {
+                        "block": {
+                          "type": "rect",
+                          "id": "pOcRqZ`eA[/yTX_L#j~%",
+                          "inputs": {
+                            "xValueRect": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "wFug#U/(GD3=(AliKJw8",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              },
+                              "block": {
+                                "type": "mouseX",
+                                "id": "I1H0jA#~Juz.8M{j+KEs"
+                              }
+                            },
+                            "yValueRect": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "fk)1g$QG,$JTI+-@0mfg",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              },
+                              "block": {
+                                "type": "mouseY",
+                                "id": "^$LE?zV8~P:$9;mEm%]%"
+                              }
+                            },
+                            "hValueRect": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "~+:Xz/##HpFs|M(j9pBi",
+                                "fields": {
+                                  "numbr": 60
+                                }
+                              }
+                            },
+                            "wValueRect": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": ",@+3!8,N~yObfn/LTE%s",
+                                "fields": {
+                                  "numbr": 80
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "color",
+                              "id": "}$ShouwDwx/mf5SPw7@m",
+                              "fields": {
+                                "colorR": 0,
+                                "colorG": 100,
+                                "colorB": 100
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "triangle",
+                                  "id": "S3Lz+F88=:Y.3]RxdOn/",
+                                  "inputs": {
+                                    "xTriOne": {
+                                      "block": {
+                                        "type": "mouseX",
+                                        "id": "Xf9.~CRbB_3)I(O|m+BI"
+                                      }
+                                    },
+                                    "yTriOne": {
+                                      "block": {
+                                        "type": "mouseY",
+                                        "id": "l=hET:pW`2iCP8Ro=lO{"
+                                      }
+                                    },
+                                    "xTriTwo": {
+                                      "block": {
+                                        "type": "plus",
+                                        "id": "e._|G8#fb-))g^moFkD1",
+                                        "inputs": {
+                                          "ersteZahlplus": {
+                                            "block": {
+                                              "type": "mouseX",
+                                              "id": "{o?YW[mH+dwam?ZYxvz@"
+                                            }
+                                          },
+                                          "zweiteZahlplus": {
+                                            "block": {
+                                              "type": "numb",
+                                              "id": "6h}T9eg]7lB.:/{IU$;d",
+                                              "fields": {
+                                                "numbr": 40
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "yTriTwo": {
+                                      "block": {
+                                        "type": "minus",
+                                        "id": "(UUwu0Cd#vYj0Iu!D9GE",
+                                        "inputs": {
+                                          "ersteZahlminus": {
+                                            "block": {
+                                              "type": "mouseY",
+                                              "id": "~S$fRtUQGaB_Ia*nJ6CF"
+                                            }
+                                          },
+                                          "zweiteZahlminus": {
+                                            "block": {
+                                              "type": "numb",
+                                              "id": "p@(IMk0OX3@3!jpO~lIL",
+                                              "fields": {
+                                                "numbr": 20
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "xTriThree": {
+                                      "block": {
+                                        "type": "plus",
+                                        "id": "NM]OKlx-sB7`HnIJ[tHP",
+                                        "inputs": {
+                                          "ersteZahlplus": {
+                                            "block": {
+                                              "type": "mouseX",
+                                              "id": "L2L,g+R0h^0Xo?Tkr_}T"
+                                            }
+                                          },
+                                          "zweiteZahlplus": {
+                                            "block": {
+                                              "type": "numb",
+                                              "id": "V[wcr-q%y#!!M:r:z4lk",
+                                              "fields": {
+                                                "numbr": 80
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "yTriThree": {
+                                      "block": {
+                                        "type": "mouseY",
+                                        "id": "b`G7,M4$tFx8Sy`wBfZd"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "repeatForever",
+        "id": "vWTr?YhM9|CdiOi}fU2,",
+        "x": 420,
+        "y": 300
+      },
+      {
+        "type": "mouseClick",
+        "id": "Z]*%Y7{a1DM5[tCFmx-g",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "type": "mouseClick",
+        "id": "^U.t:`g?MDG{5?[5|cf!",
+        "x": 780,
+        "y": 380,
+        "inputs": {
+          "mausStatements": {
+            "block": {
+              "type": "procedures_callnoreturn",
+              "id": "LO(LYhz+lf?l1WG@U;Uf",
+              "extraState": {
+                "name": "stempeln"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "x",
+      "id": "aZonrZm4UoE/(Ix8u4G_"
+    },
+    {
+      "name": "nameFunktion",
+      "id": "oBdoScp2})4?~y%l|E8f"
+    }
+  ]
+}

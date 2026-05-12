@@ -1,0 +1,336 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "mausBewegt",
+        "id": "2[-EX9`Ai/]DKL)VX?i)",
+        "x": 140,
+        "y": 500,
+        "inputs": {
+          "mausBewegtStatement": {
+            "block": {
+              "type": "stiftFarbeHSB",
+              "id": "#zQ%5I3$;CS0BJ???iN7",
+              "fields": {
+                "stiftFarbeHSBPicked": "#992afa"
+              },
+              "next": {
+                "block": {
+                  "type": "line",
+                  "id": "/rIZ`vgNPkZ8eRkhen}W",
+                  "inputs": {
+                    "xValueLineOne": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "B]/I8DzQ$GR)L`)un-`x",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "pmouseX",
+                        "id": "v}2d}hugGv/8bijw,@:#"
+                      }
+                    },
+                    "yValueLineOne": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "FStM:Y.HoAE605v8,CG#",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "pmouseY",
+                        "id": "gz}}4g#9mV5:Yb.@F$x`"
+                      }
+                    },
+                    "xValueLineTwo": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "x+~N|dpp~Il5YU^b-J1-",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseX",
+                        "id": ";d3|Dukw3U.DpDs%:($w"
+                      }
+                    },
+                    "yValueLineTwo": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "m1]s:QC*W2yGapgatvN[",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseY",
+                        "id": "d)q%_wgid!|MBUIohaOx"
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "mirrorY",
+                      "id": "d7O$/JynG%F9+n,LCzl=",
+                      "next": {
+                        "block": {
+                          "type": "stiftFarbeHSB",
+                          "id": "o!X57{q~5wrMK:~!CldT",
+                          "fields": {
+                            "stiftFarbeHSBPicked": "#992afa"
+                          },
+                          "next": {
+                            "block": {
+                              "type": "line",
+                              "id": "Mz:vF:bWG-!,kAb%FQj{",
+                              "inputs": {
+                                "xValueLineOne": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "B]/I8DzQ$GR)L`)un-`x",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "pmouseX",
+                                    "id": "{D;6v}S?,lR+PLbgOk]%"
+                                  }
+                                },
+                                "yValueLineOne": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "FStM:Y.HoAE605v8,CG#",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "pmouseY",
+                                    "id": "~hXH*+3`:p=0)^T;/0x|"
+                                  }
+                                },
+                                "xValueLineTwo": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "x+~N|dpp~Il5YU^b-J1-",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "mouseX",
+                                    "id": "sEjTOqjx#kx6_VmKv(?G"
+                                  }
+                                },
+                                "yValueLineTwo": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "m1]s:QC*W2yGapgatvN[",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "mouseY",
+                                    "id": "7-ojj;q.k[bf0~~]sJAx"
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "mirrorX",
+                                  "id": "wFwlP*37/u[{kf*e7=+T",
+                                  "next": {
+                                    "block": {
+                                      "type": "stiftFarbeHSB",
+                                      "id": "UlnQ%}RA=:m9EYpbTh2Y",
+                                      "fields": {
+                                        "stiftFarbeHSBPicked": "#992afa"
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "line",
+                                          "id": "qhzSmo`].uhzzA[D}H8V",
+                                          "inputs": {
+                                            "xValueLineOne": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "B]/I8DzQ$GR)L`)un-`x",
+                                                "fields": {
+                                                  "numbr": 0
+                                                }
+                                              },
+                                              "block": {
+                                                "type": "pmouseX",
+                                                "id": "rR[H5rwUJ,RSmC};/Hd}"
+                                              }
+                                            },
+                                            "yValueLineOne": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "FStM:Y.HoAE605v8,CG#",
+                                                "fields": {
+                                                  "numbr": 0
+                                                }
+                                              },
+                                              "block": {
+                                                "type": "pmouseY",
+                                                "id": ":s2h{zl4~}k6WY(ikq7S"
+                                              }
+                                            },
+                                            "xValueLineTwo": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "x+~N|dpp~Il5YU^b-J1-",
+                                                "fields": {
+                                                  "numbr": 0
+                                                }
+                                              },
+                                              "block": {
+                                                "type": "mouseX",
+                                                "id": "b[lhAXCO+1Z|)lgF;hX["
+                                              }
+                                            },
+                                            "yValueLineTwo": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "m1]s:QC*W2yGapgatvN[",
+                                                "fields": {
+                                                  "numbr": 0
+                                                }
+                                              },
+                                              "block": {
+                                                "type": "mouseY",
+                                                "id": "O2`/Zg~)fQ+RD%|}?ZV7"
+                                              }
+                                            }
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "mirrorY",
+                                              "id": "QJB(Ajy1stP*Z(~:b,}/",
+                                              "next": {
+                                                "block": {
+                                                  "type": "stiftFarbeHSB",
+                                                  "id": "}WOWYKEM*[{xL_e,q:!P",
+                                                  "fields": {
+                                                    "stiftFarbeHSBPicked": "#992afa"
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "line",
+                                                      "id": "%~AbjR1wZVo3wQ#L9RMZ",
+                                                      "inputs": {
+                                                        "xValueLineOne": {
+                                                          "shadow": {
+                                                            "type": "numb",
+                                                            "id": "B]/I8DzQ$GR)L`)un-`x",
+                                                            "fields": {
+                                                              "numbr": 0
+                                                            }
+                                                          },
+                                                          "block": {
+                                                            "type": "pmouseX",
+                                                            "id": "PjP2`(6Ny!Y{q|o[T0g6"
+                                                          }
+                                                        },
+                                                        "yValueLineOne": {
+                                                          "shadow": {
+                                                            "type": "numb",
+                                                            "id": "FStM:Y.HoAE605v8,CG#",
+                                                            "fields": {
+                                                              "numbr": 0
+                                                            }
+                                                          },
+                                                          "block": {
+                                                            "type": "pmouseY",
+                                                            "id": "a25{4[q{{P0o+8g#d@u="
+                                                          }
+                                                        },
+                                                        "xValueLineTwo": {
+                                                          "shadow": {
+                                                            "type": "numb",
+                                                            "id": "x+~N|dpp~Il5YU^b-J1-",
+                                                            "fields": {
+                                                              "numbr": 0
+                                                            }
+                                                          },
+                                                          "block": {
+                                                            "type": "mouseX",
+                                                            "id": "`nsVB$GrQxSFBdWwaZv{"
+                                                          }
+                                                        },
+                                                        "yValueLineTwo": {
+                                                          "shadow": {
+                                                            "type": "numb",
+                                                            "id": "m1]s:QC*W2yGapgatvN[",
+                                                            "fields": {
+                                                              "numbr": 0
+                                                            }
+                                                          },
+                                                          "block": {
+                                                            "type": "mouseY",
+                                                            "id": "0L:/dz!J/UC]m~,;Dvby"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "altSetup",
+        "id": "_?Y!$PR8??kq-kQ1h;f[",
+        "x": 20,
+        "y": 220,
+        "inputs": {
+          "testInput": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "VuJbcfjKkOKIuNt@=?_O",
+              "fields": {
+                "backgroundPickHSV": "#2bfbc5"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "Element",
+      "id": "LtF832k=jo]gC^`I74Up"
+    },
+    {
+      "name": "test",
+      "id": "IcnDZ,O6x~8_t*Fkq$8H"
+    }
+  ]
+}

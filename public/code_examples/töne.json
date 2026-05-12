@@ -1,0 +1,211 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup3D",
+        "id": "%#O8)y#-l3?-$g;x29*Q",
+        "x": 60,
+        "y": 140,
+        "inputs": {
+          "testInput3D": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "R9~_=V2Xq6JpfeTpp0j@",
+              "fields": {
+                "backgroundPickHSV": "#defa55"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "keyClicked",
+        "id": "*G]/FSvpdZU|#m=_X;kK",
+        "x": 380,
+        "y": 380,
+        "inputs": {
+          "keysClicked": {
+            "block": {
+              "type": "wennDann",
+              "id": "}H7iCxyxPWecT^*4a:cF",
+              "inputs": {
+                "bedingung": {
+                  "block": {
+                    "type": "keyClickFixed",
+                    "id": "#,n=[qv6/Kux=A:HKNN)",
+                    "fields": {
+                      "keyPressed": "32"
+                    }
+                  }
+                },
+                "dannStatement": {
+                  "block": {
+                    "type": "ton",
+                    "id": "%0m0Arw}PZxb4G*6q/;O",
+                    "next": {
+                      "block": {
+                        "type": "tonfrequenz",
+                        "id": "`@Q)Qg8isTl;8,@Lpwvc",
+                        "fields": {
+                          "frequenzValue": 1200
+                        },
+                        "next": {
+                          "block": {
+                            "type": "tonAmplitude",
+                            "id": ",=]6F%=xGbWp[`GVXUWE",
+                            "fields": {
+                              "ampValue": 0.74
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "wennDann",
+                  "id": "iM{AV(J[[4HO_IJq!{2t",
+                  "inputs": {
+                    "bedingung": {
+                      "block": {
+                        "type": "keyClickString",
+                        "id": "[I42(HAKcgvK20+pXa30",
+                        "inputs": {
+                          "keyPressed": {
+                            "shadow": {
+                              "type": "textBlock",
+                              "id": "Lj-EL5Dx/v=}1OnBNKMB",
+                              "fields": {
+                                "textBlockText": "s"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "dannStatement": {
+                      "block": {
+                        "type": "ton",
+                        "id": "6{im_/q:,2g80A|TLJGS",
+                        "next": {
+                          "block": {
+                            "type": "tonfrequenz",
+                            "id": "V9p]m#s$KGzDYneG9R)I",
+                            "fields": {
+                              "frequenzValue": 540
+                            },
+                            "next": {
+                              "block": {
+                                "type": "tonAmplitude",
+                                "id": "lmvRfi$Ho[ZB@)OUg5_u",
+                                "fields": {
+                                  "ampValue": 0.73
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "wennDann",
+                      "id": "DgX0ZDqC@_x,;bVIqUAy",
+                      "inputs": {
+                        "bedingung": {
+                          "block": {
+                            "type": "keyClickString",
+                            "id": "2Owz0y**m:k-1#}[sHYK",
+                            "inputs": {
+                              "keyPressed": {
+                                "shadow": {
+                                  "type": "textBlock",
+                                  "id": "!?rZTqS:p?0o,u/@#Ll[",
+                                  "fields": {
+                                    "textBlockText": "t"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "dannStatement": {
+                          "block": {
+                            "type": "ton",
+                            "id": "I7lq5sM0r36Lgja)w;XV",
+                            "next": {
+                              "block": {
+                                "type": "tonfrequenz",
+                                "id": "W6eZr9_$_p+?mjFVquKs",
+                                "fields": {
+                                  "frequenzValue": 260
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "tonAmplitude",
+                                    "id": "{IoN9L]d19!%Uk?t6rm,",
+                                    "fields": {
+                                      "ampValue": 0.73
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "wennDann",
+                          "id": "[]cG-$_*7g%!ZfdXU5nu",
+                          "inputs": {
+                            "bedingung": {
+                              "block": {
+                                "type": "keyClickFixed",
+                                "id": "EJv,hvhB8?Yj1]hV#KeU",
+                                "fields": {
+                                  "keyPressed": "8"
+                                }
+                              }
+                            },
+                            "dannStatement": {
+                              "block": {
+                                "type": "tonAmplitude",
+                                "id": "fw*R.YF9wDQs0D!/_HdQ",
+                                "fields": {
+                                  "ampValue": 0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "x",
+      "id": "_!|bU+r1mwU!OQ(6(vPn"
+    },
+    {
+      "name": "Element",
+      "id": "p^`ws^9d+PDd(/wt1R_,"
+    },
+    {
+      "name": "video",
+      "id": "rl/R0y5#!ucL]#zy8[!6"
+    }
+  ]
+}

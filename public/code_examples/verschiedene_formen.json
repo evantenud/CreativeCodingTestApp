@@ -1,0 +1,356 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup3D",
+        "id": "%#O8)y#-l3?-$g;x29*Q",
+        "x": 220,
+        "y": 60,
+        "inputs": {
+          "testInput3D": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "R9~_=V2Xq6JpfeTpp0j@",
+              "fields": {
+                "backgroundPickHSV": "#faf455"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "repeatForever",
+        "id": ",}x^.$1$l[wl?B8wySgo",
+        "x": 180,
+        "y": 380,
+        "inputs": {
+          "repeatables": {
+            "block": {
+              "type": "stiftFarbeHSB",
+              "id": "Yb[aJBe=judf|tGRCfYS",
+              "fields": {
+                "stiftFarbeHSBPicked": "#2bfbc5"
+              },
+              "next": {
+                "block": {
+                  "type": "point",
+                  "id": "YUH!2Lhnm_;ODa$$Oy]I",
+                  "inputs": {
+                    "xValuePoint": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "mZR5QFo7|_:,,,D1w3,C",
+                        "fields": {
+                          "numbr": 40
+                        }
+                      }
+                    },
+                    "yValuePoint": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "FPHp}6g4n0Uq#,r}t1aw",
+                        "fields": {
+                          "numbr": 40
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "stiftFarbe",
+                      "id": "q=]8@WwIi3?Vi9h?P1fb",
+                      "fields": {
+                        "stiftFarbeR": 0,
+                        "stiftFarbeG": 79,
+                        "stiftFarbeB": 50
+                      },
+                      "next": {
+                        "block": {
+                          "type": "line",
+                          "id": "2-N{^t4h(.}nu4l*0.@0",
+                          "inputs": {
+                            "xValueLineOne": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "B[WGgGE:}8|r4qy-G#7K",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              },
+                              "block": {
+                                "type": "mal",
+                                "id": "+w*|t17tVONS1!I?@BI:",
+                                "inputs": {
+                                  "ersteZahlmal": {
+                                    "shadow": {
+                                      "type": "numb",
+                                      "id": "LBwS*~F;Q.Wd6m$6f6@,",
+                                      "fields": {
+                                        "numbr": -1
+                                      }
+                                    }
+                                  },
+                                  "zweiteZahlmal": {
+                                    "shadow": {
+                                      "type": "numb",
+                                      "id": "TR2?Iw890;P@#CR^*.5g",
+                                      "fields": {
+                                        "numbr": 1
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "breite",
+                                      "id": "zaMgvujnyj(_0roV_L=d"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "yValueLineOne": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "_kMBooTxmTU#N(235nfD",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              },
+                              "block": {
+                                "type": "mal",
+                                "id": "4J{io6Jzby)?xRqQZ$CR",
+                                "inputs": {
+                                  "ersteZahlmal": {
+                                    "shadow": {
+                                      "type": "numb",
+                                      "id": "gwLWxzqsIo``0xw)%`8K",
+                                      "fields": {
+                                        "numbr": -1
+                                      }
+                                    }
+                                  },
+                                  "zweiteZahlmal": {
+                                    "shadow": {
+                                      "type": "numb",
+                                      "id": "Vza:Oh:v)30w#.`Uu/lc",
+                                      "fields": {
+                                        "numbr": 1
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "hoehe",
+                                      "id": "H}coalPE`@ts8dMVlj@;"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "xValueLineTwo": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "MU7Of0pKRlq5b3%VRAd%",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              },
+                              "block": {
+                                "type": "breite",
+                                "id": "((hVFA$Iy%N[vd5FjpJd"
+                              }
+                            },
+                            "yValueLineTwo": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "[Yf#y?S|TD+m)jWLI$:H",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              },
+                              "block": {
+                                "type": "hoehe",
+                                "id": "3(m2We-QR62mcWn=td@9"
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "colorHSV",
+                              "id": "*YDM[D`BuL;#W4XSc+8r",
+                              "fields": {
+                                "COLOUR": "#faca2a"
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "circle",
+                                  "id": "c}nLMx,C$b+p(~Z(u.RF",
+                                  "inputs": {
+                                    "xValue": {
+                                      "shadow": {
+                                        "type": "numb",
+                                        "id": "|^9G90AU*qNO00xVWsfd",
+                                        "fields": {
+                                          "numbr": 0
+                                        }
+                                      }
+                                    },
+                                    "yValue": {
+                                      "shadow": {
+                                        "type": "numb",
+                                        "id": "6x*SBD.L]ryr.U/r(c(@",
+                                        "fields": {
+                                          "numbr": 0
+                                        }
+                                      }
+                                    },
+                                    "dValue": {
+                                      "shadow": {
+                                        "type": "numb",
+                                        "id": "r8SN/IvqGl%g^%be7+Vn",
+                                        "fields": {
+                                          "numbr": 100
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "color",
+                                      "id": "1p_`SDJKM3~AMYO|Yh6T",
+                                      "fields": {
+                                        "colorR": 220,
+                                        "colorG": 140,
+                                        "colorB": 0
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "rect",
+                                          "id": "GdF4-xszcVgNS}Wl%g@b",
+                                          "inputs": {
+                                            "xValueRect": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "-2U+?i#fH?t*E=?blh.z",
+                                                "fields": {
+                                                  "numbr": 200
+                                                }
+                                              }
+                                            },
+                                            "yValueRect": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "@WIJgd0Z48c(-qJ$tlY}",
+                                                "fields": {
+                                                  "numbr": 0
+                                                }
+                                              }
+                                            },
+                                            "hValueRect": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "xGYH$TF98rcPqI%WoT-u",
+                                                "fields": {
+                                                  "numbr": 100
+                                                }
+                                              }
+                                            },
+                                            "wValueRect": {
+                                              "shadow": {
+                                                "type": "numb",
+                                                "id": "sc5;O/#IKwbc5L6bc{cw",
+                                                "fields": {
+                                                  "numbr": 100
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "colorHSV",
+                                              "id": "$776,ej[ksIN0d85$Hzj",
+                                              "fields": {
+                                                "COLOUR": "#a1ffef"
+                                              },
+                                              "next": {
+                                                "block": {
+                                                  "type": "triangle",
+                                                  "id": "a57PEpZi%[/y;Pa$i8*}",
+                                                  "inputs": {
+                                                    "xTriOne": {
+                                                      "shadow": {
+                                                        "type": "numb",
+                                                        "id": "a-Kkj7t6kNPVfU#xJ=x(",
+                                                        "fields": {
+                                                          "numbr": -100
+                                                        }
+                                                      }
+                                                    },
+                                                    "yTriOne": {
+                                                      "shadow": {
+                                                        "type": "numb",
+                                                        "id": "Sr0=^u^lGn3N)1SkdDN[",
+                                                        "fields": {
+                                                          "numbr": -200
+                                                        }
+                                                      }
+                                                    },
+                                                    "xTriTwo": {
+                                                      "shadow": {
+                                                        "type": "numb",
+                                                        "id": "sKFUAF,!;u-r@Yjqaxpt",
+                                                        "fields": {
+                                                          "numbr": -100
+                                                        }
+                                                      }
+                                                    },
+                                                    "yTriTwo": {
+                                                      "shadow": {
+                                                        "type": "numb",
+                                                        "id": "@)52qB7?2?MX$elpUV!B",
+                                                        "fields": {
+                                                          "numbr": -300
+                                                        }
+                                                      }
+                                                    },
+                                                    "xTriThree": {
+                                                      "shadow": {
+                                                        "type": "numb",
+                                                        "id": "3~!L)x_0DWoj_d@V?|5$",
+                                                        "fields": {
+                                                          "numbr": 300
+                                                        }
+                                                      }
+                                                    },
+                                                    "yTriThree": {
+                                                      "shadow": {
+                                                        "type": "numb",
+                                                        "id": "!NO#a8i^^BCZUgWy0m3V",
+                                                        "fields": {
+                                                          "numbr": -100
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

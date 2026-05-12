@@ -1,0 +1,232 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup3D",
+        "id": "%#O8)y#-l3?-$g;x29*Q",
+        "x": 60,
+        "y": 140,
+        "inputs": {
+          "testInput3D": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "R9~_=V2Xq6JpfeTpp0j@",
+              "fields": {
+                "backgroundPickHSV": "#defa55"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "vorbereiten",
+        "id": "Wv]}c%E|+-hPXo+tMy)~",
+        "x": 540,
+        "y": -60,
+        "inputs": {
+          "vorbereiteteBilder": {
+            "block": {
+              "type": "videoStarten",
+              "id": "@e7Q6.6?#L`2mIK,r-oq",
+              "fields": {
+                "videoStartenVar": {
+                  "id": "rl/R0y5#!ucL]#zy8[!6"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "repeatForever",
+        "id": "L;E+maO`8;l{nhu)SG57",
+        "x": 20,
+        "y": 340,
+        "inputs": {
+          "repeatables": {
+            "block": {
+              "type": "videoGrosse",
+              "id": "_0nYR_m@bi:fnU:Wc0ha",
+              "inputs": {
+                "videoGrosseVideo": {
+                  "block": {
+                    "type": "variables_get",
+                    "id": "`U!^{`D;nF1/{qP)rf5Q",
+                    "fields": {
+                      "VAR": {
+                        "id": "rl/R0y5#!ucL]#zy8[!6"
+                      }
+                    }
+                  }
+                },
+                "videoGrosseX": {
+                  "shadow": {
+                    "type": "numb",
+                    "id": "{V!em;-If:WkvT1*|~-[",
+                    "fields": {
+                      "numbr": 0
+                    }
+                  },
+                  "block": {
+                    "type": "mal",
+                    "id": "XLa?ZN-XsbK;zfIsjFeE",
+                    "inputs": {
+                      "ersteZahlmal": {
+                        "shadow": {
+                          "type": "numb",
+                          "id": "6E2-|{E%(thXeycK39xZ",
+                          "fields": {
+                            "numbr": -1
+                          }
+                        }
+                      },
+                      "zweiteZahlmal": {
+                        "shadow": {
+                          "type": "numb",
+                          "id": "s;UJk!RanJj2h@z@vdgU",
+                          "fields": {
+                            "numbr": 1
+                          }
+                        },
+                        "block": {
+                          "type": "geteilt",
+                          "id": "x/+ECpBAM.3+Ax{[gH!-",
+                          "inputs": {
+                            "ersteZahlgeteilt": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "3V*!xb)i[wkgJzkm(*Wb",
+                                "fields": {
+                                  "numbr": 2
+                                }
+                              },
+                              "block": {
+                                "type": "breite",
+                                "id": "%E!z|`%LcJ9X$^DAdyPr"
+                              }
+                            },
+                            "zweiteZahlgeteilt": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "IIry:yWMI@Au96KLxtd,",
+                                "fields": {
+                                  "numbr": 2
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "videoGrosseY": {
+                  "shadow": {
+                    "type": "numb",
+                    "id": "(8(4U|q2/;STU9+GAu,Y",
+                    "fields": {
+                      "numbr": 0
+                    }
+                  },
+                  "block": {
+                    "type": "mal",
+                    "id": "*etNCq:xi+]ZAU{:~a;q",
+                    "inputs": {
+                      "ersteZahlmal": {
+                        "shadow": {
+                          "type": "numb",
+                          "id": "K=V|Kag];l[NEH;arSRG",
+                          "fields": {
+                            "numbr": -1
+                          }
+                        }
+                      },
+                      "zweiteZahlmal": {
+                        "shadow": {
+                          "type": "numb",
+                          "id": "s;UJk!RanJj2h@z@vdgU",
+                          "fields": {
+                            "numbr": 1
+                          }
+                        },
+                        "block": {
+                          "type": "geteilt",
+                          "id": "?}%jbewPoIPF0,$;E3Hs",
+                          "inputs": {
+                            "ersteZahlgeteilt": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "3V*!xb)i[wkgJzkm(*Wb",
+                                "fields": {
+                                  "numbr": 2
+                                }
+                              },
+                              "block": {
+                                "type": "hoehe",
+                                "id": "0Ph87p|$Rr*$`V4mQ=sR"
+                              }
+                            },
+                            "zweiteZahlgeteilt": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "+{))j5(o7x?W8P^#A{_!",
+                                "fields": {
+                                  "numbr": 2
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "videoGrosseBreite": {
+                  "shadow": {
+                    "type": "numb",
+                    "id": "v^`d7ZbZf)(-!-1sH]v-",
+                    "fields": {
+                      "numbr": 20
+                    }
+                  },
+                  "block": {
+                    "type": "breite",
+                    "id": "5YJiu!~yhxNJ?.@@f.7~"
+                  }
+                },
+                "videoGrosseHohe": {
+                  "shadow": {
+                    "type": "numb",
+                    "id": "ZaT=0iD8kd;3~+mVVuq*",
+                    "fields": {
+                      "numbr": 20
+                    }
+                  },
+                  "block": {
+                    "type": "hoehe",
+                    "id": "J#2cK:E.:Gw4A=ilIrC$"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "x",
+      "id": "_!|bU+r1mwU!OQ(6(vPn"
+    },
+    {
+      "name": "Element",
+      "id": "p^`ws^9d+PDd(/wt1R_,"
+    },
+    {
+      "name": "video",
+      "id": "rl/R0y5#!ucL]#zy8[!6"
+    }
+  ]
+}

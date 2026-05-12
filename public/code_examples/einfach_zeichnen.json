@@ -1,0 +1,109 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup",
+        "id": "m7Q+s+a78LZE)_I~dVR`",
+        "x": 20,
+        "y": 100,
+        "inputs": {
+          "testInput": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "w{Sal]JPrg{@~V|eA8;D",
+              "fields": {
+                "backgroundPickHSV": "#69e1ff"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "mausBewegt",
+        "id": "j(p!Ksg:2ox]WHOQ]hqO",
+        "x": 20,
+        "y": 340,
+        "inputs": {
+          "mausBewegtStatement": {
+            "block": {
+              "type": "stiftFarbe",
+              "id": "+oQNANd)aLz+{pc]kjGt",
+              "fields": {
+                "stiftFarbeR": 60,
+                "stiftFarbeG": 200,
+                "stiftFarbeB": 0
+              },
+              "next": {
+                "block": {
+                  "type": "line",
+                  "id": "OV~GI.Rbf#C?y8uH1a`V",
+                  "inputs": {
+                    "xValueLineOne": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "75-%KWNfk`l%W.AI4+5t",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "pmouseX",
+                        "id": "9#p,KjTrmCg?bQO-X|1e"
+                      }
+                    },
+                    "yValueLineOne": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "!{z}OrdG}lqvSg`gv8%}",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "pmouseY",
+                        "id": ";q.`[-{uChhSOs31fPpf"
+                      }
+                    },
+                    "xValueLineTwo": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "f@?D2uZ`QwU)R{+R{x-?",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseX",
+                        "id": "Bp4]6-B~_.a?.dd9xybp"
+                      }
+                    },
+                    "yValueLineTwo": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "EYFRqzmUNQ_rPv~%q2Mg",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "mouseY",
+                        "id": "c3DrrRu(5Tev_$PSle9^"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "Element",
+      "id": "T+`@%oMFzID:xezE:wj."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup",
+        "id": ";}fLa!-I*r*XDR)k$y6X",
+        "x": -60,
+        "y": 180,
+        "fields": {
+          "farbModus": "RGB"
+        },
+        "inputs": {
+          "testInput": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "wy*/@]S1pIn,xr~mb8CC",
+              "fields": {
+                "backgroundPickHSV": "#00ffe5"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "repeatForever",
+        "id": "ANULT@WSP,@Y24tFy6$|",
+        "x": -60,
+        "y": 340,
+        "inputs": {
+          "repeatables": {
+            "block": {
+              "type": "point",
+              "id": "UWLD[Q*de=WI72)v^%dz",
+              "inputs": {
+                "xValuePoint": {
+                  "block": {
+                    "type": "frameCountVar",
+                    "id": ",x76t(y6r9(biN8@U`6#"
+                  }
+                },
+                "yValuePoint": {
+                  "block": {
+                    "type": "geteilt",
+                    "id": "|w0%4DOjr,!`ZR?A4bCN",
+                    "inputs": {
+                      "ersteZahlgeteilt": {
+                        "block": {
+                          "type": "hoehe",
+                          "id": "6n6eTO5MnjyW4eA/nvQL"
+                        }
+                      },
+                      "zweiteZahlgeteilt": {
+                        "block": {
+                          "type": "numb",
+                          "id": "NMjgHeyI=hx=G[oF;Xif",
+                          "fields": {
+                            "numbr": 2
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "x",
+      "id": "aZonrZm4UoE/(Ix8u4G_"
+    },
+    {
+      "name": "nameFunktion",
+      "id": "oBdoScp2})4?~y%l|E8f"
+    },
+    {
+      "name": "y",
+      "id": "@Z#Vk4{,ChfZl7oB*=X-"
+    },
+    {
+      "name": "z",
+      "id": "PNgGj@ng]1#iVQ9R0OMN"
+    }
+  ]
+}

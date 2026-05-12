@@ -1,0 +1,317 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup3D",
+        "id": "%#O8)y#-l3?-$g;x29*Q",
+        "x": 220,
+        "y": 60,
+        "inputs": {
+          "testInput3D": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "R9~_=V2Xq6JpfeTpp0j@",
+              "fields": {
+                "backgroundPickHSV": "#faf455"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "repeatForever",
+        "id": ",}x^.$1$l[wl?B8wySgo",
+        "x": 140,
+        "y": 260,
+        "inputs": {
+          "repeatables": {
+            "block": {
+              "type": "stiftFarbeHSB",
+              "id": "Yb[aJBe=judf|tGRCfYS",
+              "fields": {
+                "stiftFarbeHSBPicked": "#2bfbc5"
+              },
+              "next": {
+                "block": {
+                  "type": "colorHSV",
+                  "id": "$776,ej[ksIN0d85$Hzj",
+                  "fields": {
+                    "COLOUR": "#a1ffef"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "rect",
+                      "id": "GdF4-xszcVgNS}Wl%g@b",
+                      "inputs": {
+                        "xValueRect": {
+                          "shadow": {
+                            "type": "numb",
+                            "id": "-2U+?i#fH?t*E=?blh.z",
+                            "fields": {
+                              "numbr": 200
+                            }
+                          }
+                        },
+                        "yValueRect": {
+                          "shadow": {
+                            "type": "numb",
+                            "id": "@WIJgd0Z48c(-qJ$tlY}",
+                            "fields": {
+                              "numbr": 0
+                            }
+                          }
+                        },
+                        "hValueRect": {
+                          "shadow": {
+                            "type": "numb",
+                            "id": "xGYH$TF98rcPqI%WoT-u",
+                            "fields": {
+                              "numbr": 100
+                            }
+                          }
+                        },
+                        "wValueRect": {
+                          "shadow": {
+                            "type": "numb",
+                            "id": "sc5;O/#IKwbc5L6bc{cw",
+                            "fields": {
+                              "numbr": 100
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "rotate",
+                          "id": "h8kfFK`$_;L!KA7wm,C3",
+                          "inputs": {
+                            "rotateDeg": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "6M%irN,vUDcRb~HLx2#!",
+                                "fields": {
+                                  "numbr": 45
+                                }
+                              }
+                            },
+                            "rotateX": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "Js9BeOlI70Qnz-}+/M,q",
+                                "fields": {
+                                  "numbr": 200
+                                }
+                              }
+                            },
+                            "rotateY": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "rdz%gYJDdR%k!k8|,KMr",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "rect",
+                              "id": "~i8D%@z51VbB*%XEz0J;",
+                              "inputs": {
+                                "xValueRect": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": ";{^.r9x2%/,xI.{@},!b",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  }
+                                },
+                                "yValueRect": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": ".s=UvS6||@]5#}fzH%NC",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  }
+                                },
+                                "hValueRect": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "m)h?tXj9/dIcT3}O!JJS",
+                                    "fields": {
+                                      "numbr": 100
+                                    }
+                                  }
+                                },
+                                "wValueRect": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "l@[}QP0)W[+uNU7PD=9C",
+                                    "fields": {
+                                      "numbr": 100
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "wiederholeSolange",
+                                  "id": "CfDpf./Z6(WtGiojiK9P",
+                                  "inputs": {
+                                    "solangeStatement": {
+                                      "shadow": {
+                                        "type": "numb",
+                                        "id": "CX#)OF[8fu+@e0J]k!%i",
+                                        "fields": {
+                                          "numbr": 1
+                                        }
+                                      },
+                                      "block": {
+                                        "type": "minus",
+                                        "id": "ph~/)K7N=@^_eaW)s-S`",
+                                        "inputs": {
+                                          "ersteZahlminus": {
+                                            "shadow": {
+                                              "type": "numb",
+                                              "id": "ni.]X/Ao{=!I-h3jneWU",
+                                              "fields": {
+                                                "numbr": 2
+                                              }
+                                            },
+                                            "block": {
+                                              "type": "geteilt",
+                                              "id": "_Yws@AnKHwL,Brk[LI^b",
+                                              "inputs": {
+                                                "ersteZahlgeteilt": {
+                                                  "shadow": {
+                                                    "type": "numb",
+                                                    "id": "neknG`VtlW{ZcJN#gB$:",
+                                                    "fields": {
+                                                      "numbr": 360
+                                                    }
+                                                  }
+                                                },
+                                                "zweiteZahlgeteilt": {
+                                                  "shadow": {
+                                                    "type": "numb",
+                                                    "id": "FF#zX:.4j,A:7SKv?s%#",
+                                                    "fields": {
+                                                      "numbr": 45
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "zweiteZahlminus": {
+                                            "shadow": {
+                                              "type": "numb",
+                                              "id": "_f]/vC0AkP+PJ7W}S7;u",
+                                              "fields": {
+                                                "numbr": 1
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "wiederholeStatement": {
+                                      "block": {
+                                        "type": "rotate",
+                                        "id": "_aFYVx7;*jRRix]rWzA1",
+                                        "inputs": {
+                                          "rotateDeg": {
+                                            "shadow": {
+                                              "type": "numb",
+                                              "id": "@1Ye0^TE-5*6?-]9|3Sp",
+                                              "fields": {
+                                                "numbr": 45
+                                              }
+                                            }
+                                          },
+                                          "rotateX": {
+                                            "shadow": {
+                                              "type": "numb",
+                                              "id": "I,TZh*0#aXJ9eCdXl[y7",
+                                              "fields": {
+                                                "numbr": 0
+                                              }
+                                            }
+                                          },
+                                          "rotateY": {
+                                            "shadow": {
+                                              "type": "numb",
+                                              "id": "W(bY%Vimxli}vT4_s)47",
+                                              "fields": {
+                                                "numbr": 0
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "rect",
+                                            "id": "4qQDX0U*l~4@yGjs]vLZ",
+                                            "inputs": {
+                                              "xValueRect": {
+                                                "shadow": {
+                                                  "type": "numb",
+                                                  "id": "CPczv8$X%_@Y#A6x1QRT",
+                                                  "fields": {
+                                                    "numbr": 0
+                                                  }
+                                                }
+                                              },
+                                              "yValueRect": {
+                                                "shadow": {
+                                                  "type": "numb",
+                                                  "id": "bI`oT{?*TX7=Tb]G}FWY",
+                                                  "fields": {
+                                                    "numbr": 0
+                                                  }
+                                                }
+                                              },
+                                              "hValueRect": {
+                                                "shadow": {
+                                                  "type": "numb",
+                                                  "id": "M|qmd:ayf}]2DQocR]aD",
+                                                  "fields": {
+                                                    "numbr": 100
+                                                  }
+                                                }
+                                              },
+                                              "wValueRect": {
+                                                "shadow": {
+                                                  "type": "numb",
+                                                  "id": "tP%Hy5v6RX,ErXdXx;I?",
+                                                  "fields": {
+                                                    "numbr": 100
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

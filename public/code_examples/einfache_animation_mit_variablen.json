@@ -1,0 +1,367 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "altSetup",
+        "id": "(11vhOtbYf9n/:OVWo?)",
+        "x": 60,
+        "y": 140,
+        "inputs": {
+          "testInput": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "?ohAY,EjUa|K25hiT~k9",
+              "fields": {
+                "backgroundPickHSV": "#6effe2"
+              },
+              "next": {
+                "block": {
+                  "type": "frameRateVar",
+                  "id": "e[O.wN:0n?jp,?3nY%k(",
+                  "inputs": {
+                    "frameRateStatement": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": ".5iI5o4%%Sp/9V7mO1yW",
+                        "fields": {
+                          "numbr": 160
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "variables_set",
+                      "id": "Qm^.LkCHS4oA{Deo-DsA",
+                      "fields": {
+                        "VAR": {
+                          "id": "%qO#[A,ORpuFD+rRy#08"
+                        }
+                      },
+                      "inputs": {
+                        "VALUE": {
+                          "block": {
+                            "type": "randomNum",
+                            "id": "L1,Qh/.x08]:cgTx#ZS4",
+                            "inputs": {
+                              "randomMin": {
+                                "shadow": {
+                                  "type": "numb",
+                                  "id": "!I/$(A0QK.2U)+qV6_1$",
+                                  "fields": {
+                                    "numbr": 10
+                                  }
+                                }
+                              },
+                              "randomMax": {
+                                "shadow": {
+                                  "type": "numb",
+                                  "id": "#![Qin[+?}wQ{/ha%p!#",
+                                  "fields": {
+                                    "numbr": 200
+                                  }
+                                },
+                                "block": {
+                                  "type": "breite",
+                                  "id": "FJpl#Z~([ionL7w6_oKU"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "variables_set",
+                          "id": "t|MGboUmc6J:wEc+yf(Q",
+                          "fields": {
+                            "VAR": {
+                              "id": ",fbnE)-`fqYCpRo-NmQR"
+                            }
+                          },
+                          "inputs": {
+                            "VALUE": {
+                              "block": {
+                                "type": "randomNum",
+                                "id": "FKqLbjIc|N0,G#axgVq$",
+                                "inputs": {
+                                  "randomMin": {
+                                    "shadow": {
+                                      "type": "numb",
+                                      "id": "3ax|LO|,1??(N@I;-cZ_",
+                                      "fields": {
+                                        "numbr": 10
+                                      }
+                                    }
+                                  },
+                                  "randomMax": {
+                                    "shadow": {
+                                      "type": "numb",
+                                      "id": "#![Qin[+?}wQ{/ha%p!#",
+                                      "fields": {
+                                        "numbr": 200
+                                      }
+                                    },
+                                    "block": {
+                                      "type": "breite",
+                                      "id": ",hq4u.a/e4X@maY8}-J!"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "variables_set",
+                              "id": "WTE.^{(VNflxB.^u%GEE",
+                              "fields": {
+                                "VAR": {
+                                  "id": "0c:rP@m9LqAMA.k@=4|N"
+                                }
+                              },
+                              "inputs": {
+                                "VALUE": {
+                                  "block": {
+                                    "type": "randomNum",
+                                    "id": "p?5)L$4sT9Ae*Lklqrx/",
+                                    "inputs": {
+                                      "randomMin": {
+                                        "shadow": {
+                                          "type": "numb",
+                                          "id": "BHF.HU{rThR*D6~mJ$.~",
+                                          "fields": {
+                                            "numbr": 10
+                                          }
+                                        }
+                                      },
+                                      "randomMax": {
+                                        "shadow": {
+                                          "type": "numb",
+                                          "id": "#![Qin[+?}wQ{/ha%p!#",
+                                          "fields": {
+                                            "numbr": 200
+                                          }
+                                        },
+                                        "block": {
+                                          "type": "breite",
+                                          "id": "hK`aWCro9/.{7Q[G5jh,"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "repeatForever",
+        "id": "vX+:z*uWfVp*Fql~yRc2",
+        "x": 420,
+        "y": 700,
+        "inputs": {
+          "repeatables": {
+            "block": {
+              "type": "backgroundHSV",
+              "id": "4G=CyAh+RBImFH)nr^aH",
+              "fields": {
+                "backgroundPickHSV": "#6effe2"
+              },
+              "next": {
+                "block": {
+                  "type": "translate",
+                  "id": "sL%`)}fS4tTYi@JR`=go",
+                  "inputs": {
+                    "transX": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "#o3]+BD)WcuVA34?)4Zz",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      }
+                    },
+                    "transY": {
+                      "shadow": {
+                        "type": "numb",
+                        "id": "+v5f)O7auePcjGVTLnlW",
+                        "fields": {
+                          "numbr": 0
+                        }
+                      },
+                      "block": {
+                        "type": "frameCountVar",
+                        "id": "[z6y_sYq`!kkGw?Gi}r="
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "circle",
+                      "id": "bzilO29Z`@=YbB-jGuR5",
+                      "inputs": {
+                        "xValue": {
+                          "shadow": {
+                            "type": "numb",
+                            "id": "m.$+86$Z4RCX:5=:oz`3",
+                            "fields": {
+                              "numbr": 0
+                            }
+                          },
+                          "block": {
+                            "type": "variables_get",
+                            "id": "AwQhYWC{B)78!Aoy4CL+",
+                            "fields": {
+                              "VAR": {
+                                "id": "%qO#[A,ORpuFD+rRy#08"
+                              }
+                            }
+                          }
+                        },
+                        "yValue": {
+                          "shadow": {
+                            "type": "numb",
+                            "id": "3D3vSpbiGx@o8Z,CARJO",
+                            "fields": {
+                              "numbr": 0
+                            }
+                          }
+                        },
+                        "dValue": {
+                          "shadow": {
+                            "type": "numb",
+                            "id": "m$y-H=8+f_2c=*3}mFEI",
+                            "fields": {
+                              "numbr": 50
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "circle",
+                          "id": "X`3jD{m]`}6:$Mmfpn)!",
+                          "inputs": {
+                            "xValue": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "m.$+86$Z4RCX:5=:oz`3",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              },
+                              "block": {
+                                "type": "variables_get",
+                                "id": "G]n|G{L3)~H!@*#ToGUu",
+                                "fields": {
+                                  "VAR": {
+                                    "id": ",fbnE)-`fqYCpRo-NmQR"
+                                  }
+                                }
+                              }
+                            },
+                            "yValue": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "i4IJ]r9AkGq;)G/hV]~=",
+                                "fields": {
+                                  "numbr": 0
+                                }
+                              }
+                            },
+                            "dValue": {
+                              "shadow": {
+                                "type": "numb",
+                                "id": "ELW1P{@Cf/+2TkiR~swx",
+                                "fields": {
+                                  "numbr": 50
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "circle",
+                              "id": "NYUd#-=|pARYzm.Ffs2/",
+                              "inputs": {
+                                "xValue": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "m.$+86$Z4RCX:5=:oz`3",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "variables_get",
+                                    "id": "y45y`?yyHVOC4+OAdNs0",
+                                    "fields": {
+                                      "VAR": {
+                                        "id": "0c:rP@m9LqAMA.k@=4|N"
+                                      }
+                                    }
+                                  }
+                                },
+                                "yValue": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "N:1._8n2D2Xs5ebup4r_",
+                                    "fields": {
+                                      "numbr": 0
+                                    }
+                                  }
+                                },
+                                "dValue": {
+                                  "shadow": {
+                                    "type": "numb",
+                                    "id": "BXKESI9#cW8M4;i_Ur=2",
+                                    "fields": {
+                                      "numbr": 50
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "erstellteKreise",
+      "id": "UK+MO)#+eMwzA;Uj*Xk-"
+    },
+    {
+      "name": "kreis1X",
+      "id": "%qO#[A,ORpuFD+rRy#08"
+    },
+    {
+      "name": "kreis2X",
+      "id": ",fbnE)-`fqYCpRo-NmQR"
+    },
+    {
+      "name": "kreis3X",
+      "id": "0c:rP@m9LqAMA.k@=4|N"
+    }
+  ]
+}
