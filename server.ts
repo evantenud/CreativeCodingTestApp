@@ -25,6 +25,8 @@ async function startServer() {
   } else {
     const distPath = path.join(process.cwd(), 'dist');
     app.use(express.static(distPath));
+    // Neu wegen HTML -> JSON Fehler auf SuS laptops
+    app.use('/public', express.static(path.join(__dirname, 'public')));
     
     // Handle specific routes if needed, otherwise SPA fallback handles it
     app.get('*', (req, res) => {
