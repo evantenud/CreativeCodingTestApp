@@ -95,6 +95,7 @@ function BlocklyEditor() {
         <head>
           <script src="https://cdn.jsdelivr.net/npm/p5@1.11.13/lib/p5.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/p5.sound@0.3.0/dist/p5.sound.min.js"></script>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">   
           <style>
             body { margin: 0; padding: 0; overflow: hidden; background: #f0f0f0; }
             canvas { display: block; }
