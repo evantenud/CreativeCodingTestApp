@@ -564,9 +564,8 @@ function LehrpersonenPage(){
 
 export default function App() {
   return (
-    <Router> {/*Benutzt den Browser Router*/)}
+    <Router> 
       <div className="app-container">
-        {/* Navigationsleiste auf der Seite */}
         <nav className="sidebar">
           <div style={{ marginBottom: '3rem', color: '#2563eb' }}>
             <LineSquiggle size={32} /> 
@@ -579,7 +578,6 @@ export default function App() {
             <NavLink to="/lehrpersonen" icon={<Presentation size={24} />} label= "LP" />
           </div>
         </nav>
-        {/* Die "Unterseiten" */}
         <main className="main-content">
           <Routes>
             <Route path="/" element={<BlocklyEditor />} />
