@@ -559,7 +559,7 @@ function LehrpersonenPage(){
       </div>
     </div>
     );
-}
+};
 
 
 export default function App() {
@@ -570,7 +570,6 @@ export default function App() {
           <div style={{ marginBottom: '3rem', color: '#2563eb' }}>
             <LineSquiggle size={32} /> 
           </div>
-          
           <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
             <NavLink to="/" icon={<Play size={24} />} label="Code" />
             <NavLink to="/infos" icon={<Info size={24} />} label="Infos" />
