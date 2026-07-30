@@ -10,7 +10,8 @@ import { save, load } from './serialization';
 import { Play, Download, Upload, Code, Info, FileCode, LineSquiggle, Square, Box, Presentation } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { CreativeTheme } from './theme';
-// to run type node server.ts
+// cd Desktop/Bachelorarbeit/09_Test_App
+//to run type node server.ts
 
 // Initialize Blockly
 Blockly.setLocale(De);
@@ -74,7 +75,6 @@ function BlocklyEditor() {
         save(workspace.current!);
       });
     }
-    // verstehe ich noch nicht ganz
     return () => {
       if (workspace.current) {
         workspace.current.dispose();
@@ -532,10 +532,31 @@ function FilesPage() {
   );
 }
 
+const downloadTeachersExplanations = () => {
+    const link = document.createElement('a');
+    link.href = `/public/teachers/teachers_explanations.pdf`;
+    link.download = 'teachers_explanations.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
 function LehrpersonenPage(){
   return(
     <div className="page-container">
       <h1>Informationen für Lehrpersonen</h1>
+      <div className="file-card-teachers">
+        <div className="file-info">
+          <div className="file-icon">
+            <FileCode size={50} />
+          </div>
+          <div>
+            <p className="file-name-teachers">Informationen herunterladen</p>
+            <p className="file-meta-teachers">Mit diesem Link kann ein pdf heruntergeladen werden, welches die fachdidaktischen Hintergründe aufzeigt, die zur Konzeption der verschiedenen Blöcke und Kategorien der Programmierumgebung hinzugezogen wurde. Es soll zur Orientierung in der Programmierumgebung und zur Unterstützung bei der Konzeption von kompetenzorientierten Lernarrangements dienen</p>
+          </div>
+        </div>
+        <button onClick={downloadTeachersExplanations} style={{ background: 'none', border: 'none', color: '#2563eb', cursor: 'pointer', fontWeight: 500, fontSize: '1.3rem'}}>Herunterladen</button>
+      </div>
     </div>
     );
 }
@@ -543,7 +564,7 @@ function LehrpersonenPage(){
 
 export default function App() {
   return (
-    <Router>
+    <Router> {/*Benutzt den Browser Router*/)}
       <div className="app-container">
         {/* Navigationsleiste auf der Seite */}
         <nav className="sidebar">

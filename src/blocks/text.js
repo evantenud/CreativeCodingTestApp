@@ -121,6 +121,7 @@ const vorbereiten = {
   ],
   style: 'startfunktionen_blocks',
   inputsInline: true,
+  tooltip: 'Hier werden Bilder und Videos hochgeladen',
 };
 const altSetup = {
   type: 'altSetup',
